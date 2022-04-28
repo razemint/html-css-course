@@ -1,0 +1,7 @@
+p {
+    color: aqua;
+}
+
+p:hover {
+    color: blueviolet;
+}
