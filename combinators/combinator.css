@@ -1,3 +1,9 @@
+/* adjacent siblings (combinators)
 h2 + p {
     color: red;
-}
+} */
+
+/* general siblings (combinators)
+h2 ~ p {
+    color: red;
+} */
