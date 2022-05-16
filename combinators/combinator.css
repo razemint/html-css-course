@@ -7,3 +7,12 @@ h2 + p {
 h2 ~ p {
     color: red;
 } */
+/* child combinator
+div > p {
+    color: aqua;
+} */
+
+/* descendent combinator
+div p {
+    color: aqua;
+} */
