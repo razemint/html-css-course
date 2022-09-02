@@ -1,5 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: serif;
+    color: tomato;
+    margin-bottom: 10px;
 }
 
 #page-title {
@@ -11,3 +19,27 @@ h1 {
     font-family: monospace;
 }
 
+#main-nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*!important 1,0,0,0,0
+  #ID        0,1,0,0,0
+  line style 0,0,1,0,0
+  classes    0,0,0,1,0
+  elements   0,0,0,0,1
+  uselector  0,0,0,0,0*/
