@@ -1,0 +1,43 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #757575;
+    --blue: #1E90FF;
+    --red: #FF0000;
+    --primary: #FFC107;
+    --secondary: #0097A7;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title  {
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+}
+
+.title span {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.nav-main{
+    background-color: var(--secondary);
+}
