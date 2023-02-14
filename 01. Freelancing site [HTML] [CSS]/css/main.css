@@ -35,16 +35,18 @@ body {
 }
 
 .container {
-    width: 120rem; 
+    max-width: 120rem; 
     margin: 0 auto;
 }
 
 .nav-main {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .nav-main a {
+    display: block;
+    text-align: center;
     color: var(--white);
     text-decoration: none;
     font-size: 2rem;
@@ -57,7 +59,16 @@ body {
     color: var(--black);
 }
 
+.hero {
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* media queries */
-@media (min-width: 480px) {
-       
+@media (min-width: 768px) {
+    .nav-main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
