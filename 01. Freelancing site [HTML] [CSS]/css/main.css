@@ -39,6 +39,13 @@ body {
     background-color: var(--secondary);
 }
 
-.nav-main{
-    
+.nav-main {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-main a {
+    color: var(--white);
+    text-decoration: none;
 }
