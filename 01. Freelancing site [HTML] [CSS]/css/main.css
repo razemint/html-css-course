@@ -30,17 +30,16 @@ body {
     font-weight: 300;
 }
 
+.nav-bg {
+    background-color: var(--secondary);
+}
+
 .container {
     width: 120rem; 
     margin: 0 auto;
 }
 
-.nav-bg {
-    background-color: var(--secondary);
-}
-
 .nav-main {
-    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
 }
@@ -48,4 +47,17 @@ body {
 .nav-main a {
     color: var(--white);
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.nav-main a:hover {
+    background-color: var(--primary);
+    color: var(--black);
+}
+
+/* media queries */
+@media (min-width: 480px) {
+       
 }
