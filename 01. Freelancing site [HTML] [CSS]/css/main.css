@@ -31,13 +31,14 @@ body {
 }
 
 .container {
-    width: 120rem;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
+    width: 120rem; 
+    margin: 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--secondary);
 }
 
 .nav-main{
-    background-color: var(--secondary);
+    
 }
