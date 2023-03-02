@@ -8,20 +8,27 @@
     --secondary: #0097A7;
 }
 
+/* Global styles */
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* end of global styles */
 
 body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
 
-.title  {
+/* .title  {
     text-align: center;
     font-size: 3.8rem;
     color: var(--black);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; */
 }
 
 .title span {
@@ -63,6 +70,7 @@ body {
     background-image: url('../img/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 /* media queries */
